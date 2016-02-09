@@ -1,1 +1,9 @@
 C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\bin\Debug\SearchClient.exe.config
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\bin\Debug\SearchClient.exe
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\bin\Debug\SearchClient.pdb
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.csprojResolveAssemblyReference.cache
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.Properties.Resources.resources
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.csproj.GenerateResource.Cache
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.exe
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.pdb
+C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.Form1.resources
