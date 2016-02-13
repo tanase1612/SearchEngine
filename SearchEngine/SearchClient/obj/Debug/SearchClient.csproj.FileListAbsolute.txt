@@ -7,3 +7,12 @@ C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj
 C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.exe
 C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.pdb
 C:\Users\tanas\Desktop\PBSW\Assignments\Ole course\SearchEngine\SearchClient\obj\Debug\SearchClient.Form1.resources
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\bin\Debug\SearchClient.exe.config
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\bin\Debug\SearchClient.exe
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\bin\Debug\SearchClient.pdb
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.csprojResolveAssemblyReference.cache
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.Form1.resources
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.Properties.Resources.resources
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.csproj.GenerateResource.Cache
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.exe
+C:\Users\nic_k\Documents\Visual Studio 2013\Projects\Search\SearchEngine\SearchEngine\SearchClient\obj\Debug\SearchClient.pdb
