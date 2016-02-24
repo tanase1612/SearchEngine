@@ -11,8 +11,7 @@ namespace BLL
     {
          public void Filereading()
         {
-            string text = "text";
-           File f = new File(text);
+            string text = "Documents";
             crawl(f);
         }
     
@@ -24,7 +23,7 @@ namespace BLL
         
     	crawl(f, "");
        DateTime end = new DateTime();
-        long timeSpan = (end.g() - start.getTime())/1000;
+        long timeSpan = (end.Date - start.Date)/1000;
         System.out.println("Renaming finished in " + timeSpan + "s. " + count + " docs renamed.");
     }
     
