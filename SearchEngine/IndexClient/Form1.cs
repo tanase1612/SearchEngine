@@ -18,7 +18,9 @@ namespace IndexClient
           
         }
 
-        private void btnGo_Click(object sender, EventArgs e)
+       
+
+        private void txtFiles_TextChanged(object sender, EventArgs e)
         {
 
         }
