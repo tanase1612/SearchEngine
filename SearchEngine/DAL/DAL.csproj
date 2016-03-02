@@ -81,6 +81,7 @@
       <DependentUpon>SearchModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\Facade.cs" />
     <Compile Include="Repository\IContainRepository.cs" />
     <Compile Include="Repository\IDocumentRepository.cs" />
     <Compile Include="Repository\ItermRepository.cs" />

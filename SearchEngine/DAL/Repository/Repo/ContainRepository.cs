@@ -7,7 +7,7 @@ using DAL.Model;
 
 namespace DAL.Repository.Repo
 {
-   public class ContainRepository
+   public class ContainRepository : IContainRepository
     {
         public IEnumerable<Contain> GetAllContains()
         {
