@@ -84,17 +84,17 @@
     <Compile Include="Repository\Facade.cs" />
     <Compile Include="Repository\IContainRepository.cs" />
     <Compile Include="Repository\IDocumentRepository.cs" />
-    <Compile Include="Repository\ItermRepository.cs" />
+    <Compile Include="Repository\ITermRepository.cs" />
     <Compile Include="Repository\Repo\ContainRepository.cs" />
     <Compile Include="Repository\Repo\DocumentRepository.cs" />
     <Compile Include="Repository\Repo\TermRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
     <EntityDeploy Include="Model\SearchModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>SearchModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
+    <None Include="App.Config" />
     <None Include="Model\SearchModel.edmx.diagram">
       <DependentUpon>SearchModel.edmx</DependentUpon>
     </None>

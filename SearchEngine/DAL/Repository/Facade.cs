@@ -11,7 +11,7 @@ namespace DAL.Repository
     {
         private IDocumentRepository docRepo;
         private IContainRepository contRepo;
-        private ItermRepository termrepo;
+        private ITermRepository termrepo;
 
 
         public IDocumentRepository GetDocumentRepository()
@@ -24,7 +24,7 @@ namespace DAL.Repository
             return contRepo == null ? contRepo = new ContainRepository() : contRepo;
         }
 
-        public ItermRepository getTermRepository()
+        public ITermRepository getTermRepository()
         {
             return termrepo == null ? termrepo = new TermRepository() : termrepo;
         }

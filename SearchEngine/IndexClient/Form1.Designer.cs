@@ -35,37 +35,43 @@
             // 
             // txtFiles
             // 
-            this.txtFiles.Location = new System.Drawing.Point(12, 12);
+            this.txtFiles.Location = new System.Drawing.Point(16, 15);
+            this.txtFiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFiles.Name = "txtFiles";
-            this.txtFiles.Size = new System.Drawing.Size(455, 20);
+            this.txtFiles.Size = new System.Drawing.Size(605, 22);
             this.txtFiles.TabIndex = 0;
             this.txtFiles.TextChanged += new System.EventHandler(this.txtFiles_TextChanged);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(474, 9);
+            this.button1.Location = new System.Drawing.Point(632, 11);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 1;
             this.button1.Text = "Crawl";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // lstFiles
             // 
             this.lstFiles.FormattingEnabled = true;
-            this.lstFiles.Location = new System.Drawing.Point(12, 38);
+            this.lstFiles.ItemHeight = 16;
+            this.lstFiles.Location = new System.Drawing.Point(16, 47);
+            this.lstFiles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstFiles.Name = "lstFiles";
-            this.lstFiles.Size = new System.Drawing.Size(455, 303);
+            this.lstFiles.Size = new System.Drawing.Size(605, 372);
             this.lstFiles.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(561, 353);
+            this.ClientSize = new System.Drawing.Size(748, 434);
             this.Controls.Add(this.lstFiles);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtFiles);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Search";
             this.ResumeLayout(false);

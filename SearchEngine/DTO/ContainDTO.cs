@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class DocumentDTO
+   public class ContainDTO
     {
-        public int ID { get; set; }
-        public String URL {get; set; }
-        public int indexTime { get; set; }
+        int documentID { get; set; }
+        int termID { get; set; }
+        int position { get; set; }
     }
 }

@@ -7,7 +7,7 @@ using DAL.Model;
 
 namespace DAL.Repository
 {
-    public interface ItermRepository
+    public interface ITermRepository
     {
         IEnumerable<Term> GetAllTerms();
 

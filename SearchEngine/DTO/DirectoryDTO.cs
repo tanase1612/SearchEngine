@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace DTO
 {
-    public class DocumentDTO
+   public class DirectoryDTO
     {
-        public int ID { get; set; }
-        public String URL {get; set; }
-        public int indexTime { get; set; }
+       public String dir { get; set; }
     }
 }

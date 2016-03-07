@@ -11,30 +11,21 @@ using DAL.Model;
 
 namespace BLL
 {
-    class FileCrawler
+    public class FileCrawler
     {
         private IDocumentRepository docRepo = new Facade().GetDocumentRepository();
 
         private String URL;
         private DateTime time;
-        public void Filereading(DocumentDTO documentdto)
+        private int id;
+        public void Filereading(DirectoryDTO directoryDTO)
         {
-            string text = documentdto.URL;
+            string text = directoryDTO.dir;
             crawl(text);
         }
 
 
-        //static int count = 0;
-        //private static void crawl(string path)
-        //{
-        //    var start = DateTime.UtcNow.Millisecond;
-
-        //    crawl(path, "");
-        //    var end = DateTime.UtcNow.Millisecond;
-
-        //    long timeSpan = (end - start) / 1000;
-
-        //}
+        
 
         public void crawl(string path)
         {
@@ -53,6 +44,7 @@ namespace BLL
                     time = File.GetCreationTimeUtc(s);
                     Document doc = docRepo.CreateDocument(new Document
                      {
+                         ID = id,
                          URL = URL,
                          IndexTime = time
                      });
