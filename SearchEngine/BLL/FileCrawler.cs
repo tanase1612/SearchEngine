@@ -17,7 +17,6 @@ namespace BLL
 
         private String URL;
         private DateTime time;
-        private int id;
         public void Filereading(DirectoryDTO directoryDTO)
         {
             string text = directoryDTO.dir;
@@ -44,7 +43,6 @@ namespace BLL
                     time = File.GetCreationTimeUtc(s);
                     Document doc = docRepo.CreateDocument(new Document
                      {
-                         ID = id,
                          URL = URL,
                          IndexTime = time
                      });

@@ -8,6 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using DTO;
+using DAL.Repository.Repo;
+using DAL.Repository;
+using DAL.Model;
 using BLL;
 
 
@@ -15,6 +18,7 @@ namespace IndexClient
 {
     public partial class Form1 : Form
     {
+        IDocumentRepository docrepo = new Facade().GetDocumentRepository();
         FileCrawler crawler = new FileCrawler();
         public Form1()
         {
@@ -26,7 +30,7 @@ namespace IndexClient
 
         private void txtFiles_TextChanged(object sender, EventArgs e)
         {
-
+            docrepo.GetAllDocuments();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -36,6 +40,11 @@ namespace IndexClient
             {
                 dir = directory
             });
+            
+        }
+
+        private void lstFiles_SelectedIndexChanged(object sender, EventArgs e)
+        {
             
         }
     }
